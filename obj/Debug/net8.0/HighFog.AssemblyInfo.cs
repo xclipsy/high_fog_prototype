@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HighFog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fbd2d8fcd4a1398ea399ac3378e8e283d2abc36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+658af9c05c3a47afa99106efc15ebff1966d36fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("HighFog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HighFog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

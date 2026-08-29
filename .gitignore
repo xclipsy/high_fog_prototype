@@ -3,18 +3,37 @@
 bin/
 obj/
 
-# Dependencies
-packages/
-*.nupkg
-*.snupkg
+# Compiled files
+*.dll
+*.pdb
+*.exe
+*.so
+*.dylib
+*.class
 
-# Logs
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -22,7 +41,12 @@ packages/
 *.swp
 *.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 ```
