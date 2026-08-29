@@ -14,12 +14,14 @@ public sealed class DialogueLine
 {
     public string Speaker { get; set; }
     public string Text { get; set; }
+    public string PortraitKey { get; set; }
     public Action<HighFogGame>? OnCompleted { get; set; }
 
-    public DialogueLine(string speaker, string text, Action<HighFogGame>? onCompleted = null)
+    public DialogueLine(string speaker, string text, string portraitKey, Action<HighFogGame>? onCompleted = null)
     {
         Speaker = speaker;
         Text = text;
+        PortraitKey = portraitKey;
         OnCompleted = onCompleted;
     }
 }
@@ -32,6 +34,7 @@ public sealed class DialogueSequence
     public IReadOnlyList<DialogueLine> Lines => _lines;
     public bool IsActive { get; private set; }
     public DialogueLine? CurrentLine => (IsActive && _currentIndex < _lines.Count) ? _lines[_currentIndex] : null;
+    public string CurrentPortraitKey => (IsActive && _currentIndex < _lines.Count && _lines[_currentIndex] != null) ? _lines[_currentIndex].PortraitKey : string.Empty;
 
     public void Start(IEnumerable<DialogueLine> lines)
     {

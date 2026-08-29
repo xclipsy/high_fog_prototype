@@ -34,7 +34,7 @@ public sealed class DialogueUI
         }
     }
 
-    public void Draw(SpriteBatch spriteBatch, RetroFont font, DialogueSequence dialogue, int screenWidth, int screenHeight)
+    public void Draw(SpriteBatch spriteBatch, RetroFont font, DialogueSequence dialogue, TextureGenerator textures, int screenWidth, int screenHeight)
     {
         if (!dialogue.IsActive || dialogue.CurrentLine == null) return;
 
@@ -47,6 +47,20 @@ public sealed class DialogueUI
         // Dark retro box with double border
         font.DrawBox(spriteBatch, new Rectangle(boxX, boxY, boxWidth, boxHeight), new Color(14, 18, 22, 240), new Color(75, 95, 105), 3);
         font.DrawBox(spriteBatch, new Rectangle(boxX + 4, boxY + 4, boxWidth - 8, boxHeight - 8), Color.Transparent, new Color(42, 54, 62), 1);
+
+        // NPC Portrait on left corner (N64-style 24x24 scaled to 96x96)
+        if (!string.IsNullOrEmpty(dialogue.CurrentPortraitKey))
+        {
+            Texture2D portrait = textures.Get(dialogue.CurrentPortraitKey);
+            int portraitSize = 96;
+            int portraitX = 24;
+            int portraitY = screenHeight - portraitSize - 40;
+            
+            // Draw portrait with border
+            font.DrawBox(spriteBatch, new Rectangle(portraitX - 4, portraitY - 4, portraitSize + 8, portraitSize + 8), 
+                new Color(14, 18, 22, 240), new Color(75, 95, 105), 2);
+            spriteBatch.Draw(portrait, new Rectangle(portraitX, portraitY, portraitSize, portraitSize), Color.White);
+        }
 
         // Speaker Header
         string speakerText = $"[{line.Speaker}]";

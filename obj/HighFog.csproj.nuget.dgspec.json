@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marsh\\OneDrive\\Documents\\Game Project\\High_Fog\\HighFog.csproj": {}
+    "/workspace/HighFog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marsh\\OneDrive\\Documents\\Game Project\\High_Fog\\HighFog.csproj": {
+    "/workspace/HighFog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marsh\\OneDrive\\Documents\\Game Project\\High_Fog\\HighFog.csproj",
+        "projectUniqueName": "/workspace/HighFog.csproj",
         "projectName": "HighFog",
-        "projectPath": "C:\\Users\\marsh\\OneDrive\\Documents\\Game Project\\High_Fog\\HighFog.csproj",
-        "packagesPath": "C:\\Users\\marsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marsh\\OneDrive\\Documents\\Game Project\\High_Fog\\obj\\",
+        "projectPath": "/workspace/HighFog.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspace/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marsh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
