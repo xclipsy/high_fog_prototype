@@ -478,7 +478,7 @@ public sealed class HighFogGame : Microsoft.Xna.Framework.Game
                 _hud.Draw(_spriteBatch, _font, this, screenWidth, screenHeight);
                 if (Dialogue.IsActive)
                 {
-                    _dialogueUI.Draw(_spriteBatch, _font, Dialogue, screenWidth, screenHeight);
+                    _dialogueUI.Draw(_spriteBatch, _font, Dialogue, _textures, screenWidth, screenHeight);
                 }
                 break;
 

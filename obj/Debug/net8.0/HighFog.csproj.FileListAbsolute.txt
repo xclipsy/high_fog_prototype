@@ -1,36 +1,72 @@
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\mgcb.tool.restore
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.csproj.AssemblyReference.cache
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.AssemblyInfoInputs.cache
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.AssemblyInfo.cs
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.csproj.CoreCompileInputs.cache
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\HighFog.exe
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\HighFog.deps.json
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\HighFog.runtimeconfig.json
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\HighFog.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\HighFog.pdb
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\MonoGame.Framework.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\NVorbis.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\win-arm64\native\openal.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\linux-arm64\native\libSDL2-2.0.so.0
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\win-arm64\native\SDL2.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.csproj.Up2Date
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\refint\HighFog.dll
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.pdb
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\HighFog.genruntimeconfig.cache
-C:\Users\marsh\OneDrive\Documents\Game Project\High_Fog\obj\Debug\net8.0\ref\HighFog.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/mgcb.tool.restore
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.csproj.AssemblyReference.cache
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.AssemblyInfoInputs.cache
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.AssemblyInfo.cs
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.csproj.CoreCompileInputs.cache
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/HighFog.exe
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/HighFog.deps.json
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/HighFog.runtimeconfig.json
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/HighFog.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/HighFog.pdb
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/MonoGame.Framework.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/NVorbis.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/android-arm/native/libopenal.so
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/android-arm64/native/libopenal.so
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/android-x64/native/libopenal.so
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/android-x86/native/libopenal.so
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/ios-arm64/native/libopenal.a
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/iossimulator-arm64/native/libopenal.a
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/iossimulator-x64/native/libopenal.a
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/linux-arm64/native/libopenal.so
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/osx/native/libopenal.dylib
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/win-arm64/native/openal.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/win-x64/native/openal.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/linux-arm64/native/libSDL2-2.0.so.0
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/osx/native/libSDL2-2.0.0.dylib
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/win-arm64/native/SDL2.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.csproj.Up2Date
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/refint/HighFog.dll
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.pdb
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/HighFog.genruntimeconfig.cache
+C:/Users/marsh/OneDrive/Documents/Game Project/High_Fog/obj/Debug/net8.0/ref/HighFog.dll
+/workspace/bin/Debug/net8.0/HighFog
+/workspace/bin/Debug/net8.0/HighFog.deps.json
+/workspace/bin/Debug/net8.0/HighFog.runtimeconfig.json
+/workspace/bin/Debug/net8.0/HighFog.dll
+/workspace/bin/Debug/net8.0/HighFog.pdb
+/workspace/bin/Debug/net8.0/MonoGame.Framework.dll
+/workspace/bin/Debug/net8.0/NVorbis.dll
+/workspace/bin/Debug/net8.0/runtimes/android-arm/native/libopenal.so
+/workspace/bin/Debug/net8.0/runtimes/android-arm64/native/libopenal.so
+/workspace/bin/Debug/net8.0/runtimes/android-x64/native/libopenal.so
+/workspace/bin/Debug/net8.0/runtimes/android-x86/native/libopenal.so
+/workspace/bin/Debug/net8.0/runtimes/ios-arm64/native/libopenal.a
+/workspace/bin/Debug/net8.0/runtimes/iossimulator-arm64/native/libopenal.a
+/workspace/bin/Debug/net8.0/runtimes/iossimulator-x64/native/libopenal.a
+/workspace/bin/Debug/net8.0/runtimes/linux-arm64/native/libopenal.so
+/workspace/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so
+/workspace/bin/Debug/net8.0/runtimes/osx/native/libopenal.dylib
+/workspace/bin/Debug/net8.0/runtimes/win-arm64/native/openal.dll
+/workspace/bin/Debug/net8.0/runtimes/win-x64/native/openal.dll
+/workspace/bin/Debug/net8.0/runtimes/linux-arm64/native/libSDL2-2.0.so.0
+/workspace/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+/workspace/bin/Debug/net8.0/runtimes/osx/native/libSDL2-2.0.0.dylib
+/workspace/bin/Debug/net8.0/runtimes/win-arm64/native/SDL2.dll
+/workspace/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+/workspace/obj/Debug/net8.0/mgcb.tool.restore
+/workspace/obj/Debug/net8.0/HighFog.csproj.AssemblyReference.cache
+/workspace/obj/Debug/net8.0/HighFog.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/obj/Debug/net8.0/HighFog.AssemblyInfoInputs.cache
+/workspace/obj/Debug/net8.0/HighFog.AssemblyInfo.cs
+/workspace/obj/Debug/net8.0/HighFog.csproj.CoreCompileInputs.cache
+/workspace/obj/Debug/net8.0/HighFog.csproj.Up2Date
+/workspace/obj/Debug/net8.0/HighFog.dll
+/workspace/obj/Debug/net8.0/refint/HighFog.dll
+/workspace/obj/Debug/net8.0/HighFog.pdb
+/workspace/obj/Debug/net8.0/HighFog.genruntimeconfig.cache
+/workspace/obj/Debug/net8.0/ref/HighFog.dll
