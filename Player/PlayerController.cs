@@ -57,14 +57,20 @@ public sealed class PlayerController
             _runToggled = input.Down(Keys.LeftShift) || input.Down(Keys.RightShift);
         }
 
-        // Movement Direction
+        // Movement Direction - Fixed WASD input handling
         Vector3 moveInput = Vector3.Zero;
-        if (input.Down(Keys.W) || input.Down(Keys.Up)) moveInput += camera.FlatForward;
-        if (input.Down(Keys.S) || input.Down(Keys.Down)) moveInput -= camera.FlatForward;
+        
+        bool wDown = input.Down(Keys.W);
+        bool sDown = input.Down(Keys.S);
+        bool aDown = input.Down(Keys.A);
+        bool dDown = input.Down(Keys.D);
+        
+        if (wDown) moveInput += camera.FlatForward;
+        if (sDown) moveInput -= camera.FlatForward;
 
-        Vector3 flatRight = Vector3.Cross(camera.FlatForward, Vector3.Up);
-        if (input.Down(Keys.D) || input.Down(Keys.Right)) moveInput -= flatRight;
-        if (input.Down(Keys.A) || input.Down(Keys.Left)) moveInput += flatRight;
+        Vector3 flatRight = Vector3.Normalize(Vector3.Cross(camera.FlatForward, Vector3.Up));
+        if (dDown) moveInput += flatRight;
+        if (aDown) moveInput -= flatRight;
 
         bool hasMovement = moveInput.LengthSquared() > 0.001f;
         if (hasMovement)
