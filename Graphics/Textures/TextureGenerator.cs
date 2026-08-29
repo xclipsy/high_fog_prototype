@@ -41,6 +41,10 @@ public sealed class TextureGenerator : IDisposable
     public Texture2D PlayerCoat => Get("PlayerCoat");
     public Texture2D MonsterSkin => Get("MonsterSkin");
     public Texture2D White => Get("White");
+    public Texture2D ClaraPortrait => Get("ClaraPortrait");
+    public Texture2D ArthurPortrait => Get("ArthurPortrait");
+    public Texture2D VancePortrait => Get("VancePortrait");
+    public Texture2D ThomasPortrait => Get("ThomasPortrait");
 
     private void GenerateAll()
     {
@@ -64,6 +68,10 @@ public sealed class TextureGenerator : IDisposable
         _textures["PaperDocument"] = CreatePaperDocument();
         _textures["PlayerCoat"] = CreatePlayerCoat();
         _textures["MonsterSkin"] = CreateMonsterSkin();
+        _textures["ClaraPortrait"] = CreateClaraPortrait();
+        _textures["ArthurPortrait"] = CreateArthurPortrait();
+        _textures["VancePortrait"] = CreateVancePortrait();
+        _textures["ThomasPortrait"] = CreateThomasPortrait();
     }
 
     private Texture2D CreateAsphalt()
@@ -419,6 +427,211 @@ public sealed class TextureGenerator : IDisposable
                 int g = Math.Clamp(46 + n, 30, 70);
                 int b = Math.Clamp(52 + n, 35, 78);
                 pixels[y * Size + x] = new Color(r, g, b);
+            }
+        }
+        return CreateTexture(pixels);
+    }
+
+    private Texture2D CreateClaraPortrait()
+    {
+        var pixels = new Color[Size * Size];
+        var rand = new Random(201);
+        // Nervous young woman with brown hair and red scarf
+        for (int y = 0; y < Size; y++)
+        {
+            for (int x = 0; x < Size; x++)
+            {
+                // Background - dark foggy
+                if (x <= 1 || x >= Size - 2 || y <= 1 || y >= Size - 2)
+                {
+                    pixels[y * Size + x] = new Color(25, 30, 35);
+                }
+                // Hair - brown
+                else if (y < 10 && x > 4 && x < 20)
+                {
+                    int n = rand.Next(-5, 6);
+                    pixels[y * Size + x] = new Color(58 + n, 42 + n, 32 + n);
+                }
+                // Face - pale skin
+                else if (y >= 8 && y < 16 && x >= 7 && x < 18)
+                {
+                    int n = rand.Next(-3, 4);
+                    pixels[y * Size + x] = new Color(195 + n, 165 + n, 145 + n);
+                }
+                // Eyes - worried expression
+                else if (y == 11 && (x == 9 || x == 15))
+                {
+                    pixels[y * Size + x] = new Color(45, 38, 35);
+                }
+                // Red scarf
+                else if (y >= 16 && x >= 6 && x < 19)
+                {
+                    int n = rand.Next(-8, 9);
+                    pixels[y * Size + x] = new Color(145 + n, 35 + n/2, 30 + n/2);
+                }
+                // Parka - muted green/brown
+                else if (y >= 18)
+                {
+                    int n = rand.Next(-5, 6);
+                    pixels[y * Size + x] = new Color(52 + n, 58 + n, 54 + n);
+                }
+                else
+                {
+                    pixels[y * Size + x] = new Color(35, 40, 45);
+                }
+            }
+        }
+        return CreateTexture(pixels);
+    }
+
+    private Texture2D CreateArthurPortrait()
+    {
+        var pixels = new Color[Size * Size];
+        var rand = new Random(202);
+        // Old man with gray hair and wool cardigan
+        for (int y = 0; y < Size; y++)
+        {
+            for (int x = 0; x < Size; x++)
+            {
+                // Background - dark porch
+                if (x <= 1 || x >= Size - 2 || y <= 1 || y >= Size - 2)
+                {
+                    pixels[y * Size + x] = new Color(30, 28, 25);
+                }
+                // Gray hair
+                else if (y < 9 && x > 5 && x < 19)
+                {
+                    int n = rand.Next(-5, 6);
+                    int gray = 165 + n;
+                    pixels[y * Size + x] = new Color(gray, gray, gray - 5);
+                }
+                // Wrinkled face - aged skin
+                else if (y >= 7 && y < 15 && x >= 6 && x < 18)
+                {
+                    int n = rand.Next(-4, 5);
+                    pixels[y * Size + x] = new Color(185 + n, 155 + n, 135 + n);
+                }
+                // Sad eyes
+                else if (y == 10 && (x == 8 || x == 14))
+                {
+                    pixels[y * Size + x] = new Color(55, 48, 45);
+                }
+                // Wool cardigan - blue-gray
+                else if (y >= 15)
+                {
+                    int n = rand.Next(-6, 7);
+                    pixels[y * Size + x] = new Color(48 + n, 58 + n, 72 + n);
+                }
+                else
+                {
+                    pixels[y * Size + x] = new Color(40, 38, 35);
+                }
+            }
+        }
+        return CreateTexture(pixels);
+    }
+
+    private Texture2D CreateVancePortrait()
+    {
+        var pixels = new Color[Size * Size];
+        var rand = new Random(203);
+        // Injured police officer with cap and uniform
+        for (int y = 0; y < Size; y++)
+        {
+            for (int x = 0; x < Size; x++)
+            {
+                // Background - police station interior
+                if (x <= 1 || x >= Size - 2 || y <= 1 || y >= Size - 2)
+                {
+                    pixels[y * Size + x] = new Color(28, 35, 40);
+                }
+                // Police cap - dark blue
+                else if (y < 8 && x > 4 && x < 20)
+                {
+                    int n = rand.Next(-4, 5);
+                    pixels[y * Size + x] = new Color(25 + n, 35 + n, 48 + n);
+                }
+                // Stern face - weathered skin
+                else if (y >= 6 && y < 14 && x >= 6 && x < 18)
+                {
+                    int n = rand.Next(-5, 6);
+                    pixels[y * Size + x] = new Color(175 + n, 145 + n, 125 + n);
+                }
+                // Intense eyes
+                else if (y == 9 && (x == 8 || x == 14))
+                {
+                    pixels[y * Size + x] = new Color(48, 42, 40);
+                }
+                // Uniform - navy blue with badge hint
+                else if (y >= 14)
+                {
+                    int n = rand.Next(-5, 6);
+                    if (x == 12 && y == 15)
+                    {
+                        pixels[y * Size + x] = new Color(185, 165, 75); // Badge glint
+                    }
+                    else
+                    {
+                        pixels[y * Size + x] = new Color(32 + n, 48 + n, 68 + n);
+                    }
+                }
+                else
+                {
+                    pixels[y * Size + x] = new Color(35, 42, 48);
+                }
+            }
+        }
+        return CreateTexture(pixels);
+    }
+
+    private Texture2D CreateThomasPortrait()
+    {
+        var pixels = new Color[Size * Size];
+        var rand = new Random(204);
+        // Mysterious priest in dark cassock with hood
+        for (int y = 0; y < Size; y++)
+        {
+            for (int x = 0; x < Size; x++)
+            {
+                // Background - foggy church exterior
+                if (x <= 1 || x >= Size - 2 || y <= 1 || y >= Size - 2)
+                {
+                    pixels[y * Size + x] = new Color(22, 28, 32);
+                }
+                // Dark hood
+                else if ((y < 10 && x > 3 && x < 21) || (y >= 5 && y < 12 && (x <= 4 || x >= 19)))
+                {
+                    int n = rand.Next(-4, 5);
+                    pixels[y * Size + x] = new Color(22 + n, 24 + n, 28 + n);
+                }
+                // Aged solemn face partially in shadow
+                else if (y >= 8 && y < 15 && x >= 7 && x < 17)
+                {
+                    int n = rand.Next(-4, 5);
+                    pixels[y * Size + x] = new Color(165 + n, 140 + n, 120 + n);
+                }
+                // Deep-set wise eyes
+                else if (y == 11 && (x == 9 || x == 15))
+                {
+                    pixels[y * Size + x] = new Color(42, 38, 35);
+                }
+                // Black cassock with gold cross hint
+                else if (y >= 15)
+                {
+                    int n = rand.Next(-3, 4);
+                    if (x == 12 && y == 16)
+                    {
+                        pixels[y * Size + x] = new Color(185, 165, 65); // Cross glint
+                    }
+                    else
+                    {
+                        pixels[y * Size + x] = new Color(20 + n, 22 + n, 26 + n);
+                    }
+                }
+                else
+                {
+                    pixels[y * Size + x] = new Color(28, 32, 36);
+                }
             }
         }
         return CreateTexture(pixels);
